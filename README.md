@@ -6,16 +6,17 @@ Luckily we now have [docker compose](https://docs.docker.com/compose/) saving us
 
 ## Prerequisites
 
-* An [openweathermap](http://openweathermap.org/) API key.
+* [x] An [openweathermap](http://openweathermap.org/) API key.
+* Add `backend/.env` file with `APPID=your_api_key`
 
 ## Returning your solution
 
 ### Via github
 
-* Make a copy of this repository in your own github account (do not fork unless you really want to be public).
-* Create a personal repository in github.
-* Make changes, commit them, and push them in your own repository.
-* Send us the url where to find the code.
+* [x]  Make a copy of this repository in your own github account (do not fork unless you really want to be public).
+* [x]  Create a personal repository in github.
+* [x]  Make changes, commit them, and push them in your own repository.
+* [x]  Send us the url where to find the code.
 
 ### Via tar-package
 
@@ -32,11 +33,11 @@ Here are some things in different categories that you can do to make the app bet
 
 *Docker containers are central to any modern development initiative. By knowing how to set up your application into containers and make them interact with each other, you have learned a highly useful skill.*
 
-* Add **Dockerfile**'s in the *frontend* and the *backend* directories to run them virtually on any environment having [docker](https://www.docker.com/) installed. It should work by saying e.g. `docker build -t weatherapp_backend . && docker run --rm -i -p 9000:9000 --name weatherapp_backend -t weatherapp_backend`. If it doesn't, remember to check your api key first.
+* [x] Add **Dockerfile**'s in the *frontend* and the *backend* directories to run them virtually on any environment having [docker](https://www.docker.com/) installed. It should work by saying e.g. `docker build -t weatherapp_backend . && docker run --rm -i -p 9000:9000 --name weatherapp_backend -t weatherapp_backend`. If it doesn't, remember to check your api key first.
 
-* Add a **docker-compose.yml** -file connecting the frontend and the backend, enabling running the app in a connected set of containers.
+* [x] Add a **docker-compose.yml** -file connecting the frontend and the backend, enabling running the app in a connected set of containers.
 
-* The developers are still keen to run the app and its pipeline on their own computers. Share the development files for the container by using volumes, and make sure the containers are started with a command enabling hot reload.
+* [x] The developers are still keen to run the app and its pipeline on their own computers. Share the development files for the container by using volumes, and make sure the containers are started with a command enabling hot reload.
 
 ### Node and React development
 
@@ -72,9 +73,9 @@ Here are some things in different categories that you can do to make the app bet
 
 *Good documentation benefits everyone.*
 
-* Remember to update the README
+* [x]  Remember to update the README
 
-* Use descriptive names and add comments in the code when necessary
+* [x]  Use descriptive names and add comments in the code when necessary
 
 ### ProTips
 
